@@ -1,0 +1,32 @@
+.Contenedor {
+  display: flex;
+  grid-auto-flow: column;
+}
+
+.Contents {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  outline: none;
+  align-items: center;
+  justify-items: center;
+}
+
+.Select-Header {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Select-Proyects {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Select-AboutMe {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+}

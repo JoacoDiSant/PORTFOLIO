@@ -1,0 +1,7 @@
+.Navbar {
+  width: 100px;
+  position: fixed;
+  top: 64px;
+  bottom: 0px;
+  z-index: 1024;
+}
