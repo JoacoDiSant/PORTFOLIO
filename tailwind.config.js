@@ -1,7 +1,23 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+
+    screens: {
+      phone: "375px",
+
+      tablet: "600px",
+
+      laptop: "1024px",
+
+      desktop: "1280px",
+    },
+
     extend: {
+
+      margin:{
+        '500': '500px'
+      },
+
       colors: {
         "dark-violet": "#88ACC2",
         "btn-violet": "#e05757",

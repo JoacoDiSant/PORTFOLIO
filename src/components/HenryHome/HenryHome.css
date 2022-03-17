@@ -1,0 +1,10 @@
+.HenryHome {
+    width: 100%;
+    max-width: 1096px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    grid-column-gap: 48px;
+    padding-bottom: 20px;
+}

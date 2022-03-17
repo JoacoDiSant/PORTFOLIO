@@ -5,7 +5,7 @@ import "./AboutMe.css";
 
 function AboutMe() {
   return (
-    <div className="container">
+    <div className="container tablet:mt-0 desktop:mt-500">
       <div className="AboutMe" id="details">
         <h1 className="grid-cols-1">
           I am a Full-Stack Web Developer living in Argentina. I consider myself

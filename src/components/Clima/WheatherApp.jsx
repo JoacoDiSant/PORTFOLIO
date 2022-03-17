@@ -7,9 +7,9 @@ function WheatherApp() {
     <div className="container">
       <div className="Pokemon-App">
         <h1 className="grid-cols-1">
-          Aplicación Creada a Partir de una API externa la cual trae por medio
-          de una búsqueda, la temperatura actual. Esta aplicación esta
-          desarrollada enteramente con React.js, JavaScrip, Sass
+          Application created from an external API which brings by means of a
+          search, the current temperature. search, the current temperature. This
+          application is developed entirely with React.js, JavaScrip, Sass, Sass
         </h1>
         <div className="grid-cols-2 w-screan border-4 border-black rounded-lg">
           <img src={ImagenClima} alt="pokemon" className="rounded-lg" />
@@ -20,7 +20,7 @@ function WheatherApp() {
             target="_blank"
             rel="noreferrer"
           >
-            Visitar
+            Visit
           </a>
         </span>
       </div>

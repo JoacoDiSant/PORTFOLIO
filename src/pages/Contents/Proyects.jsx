@@ -1,5 +1,6 @@
 import React from "react";
 import WheatherApp from "../../components/Clima/WheatherApp";
+import HenryHome from "../../components/HenryHome/HenryHome";
 import PokemonProyect from "../../components/Pokemon/PokemonProyect";
 
 function Proyects() {
@@ -19,7 +20,7 @@ function Proyects() {
         <WheatherApp />
       </div>
       <br />
-      {/* <span className="flex ">Henry Home</span>
+      <span className="flex ">Henry Home</span>
       <span
         id="proyects"
         className="border-b-4 w-32 border-dark-violet rounded-br-3xl"
@@ -29,8 +30,8 @@ function Proyects() {
         className="border-4 w-24 rounded-br-3xl border-dark-violet"
       ></span>
       <div>
-        <WheatherApp />
-      </div> */}
+        <HenryHome />
+      </div>
     </div>
   );
 }
